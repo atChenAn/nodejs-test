@@ -23,7 +23,6 @@ async function makeDirRemote(c, file) {
     c.mkdir(file, true, err => {
       if (err) {
         console.log(err);
-
         rej(err);
       } else {
         res();

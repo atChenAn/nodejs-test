@@ -4,9 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "node ./build.js"
+    "build-ftp": "node ./deploy/deploy-ftp.js",
+    "build-scp": "node ./deploy/deploy-scp.js",
+    "build-zip": "node ./deploy/deploy-zip.js"
   },
   "dependencies": {
+    "archiver": "^5.0.2",
     "colors-console": "^1.0.3",
     "fs-extra": "^9.0.1",
     "ftp": "^0.3.10",

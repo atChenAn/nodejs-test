@@ -1,2 +1,8 @@
 # nodejs-test
- nodejs测试项目
+
+nodejs 测试项目
+
+# todo
+
+- commander 接入
+- 执行的工作路径切换
